@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.anime:hover{
+    .animep{
+        border-bottom: 3px solid #107c10;
+    }
+}
