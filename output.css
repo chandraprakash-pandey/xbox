@@ -629,6 +629,10 @@ video {
   display: flex;
 }
 
+.grid {
+  display: grid;
+}
+
 .h-12 {
   height: 3rem;
 }
@@ -782,6 +786,10 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-\[length\] {
+  background-color: length;
+}
+
 .bg-\[url\(\'\.\/images\/Ps\.jpg\'\)\] {
   background-image: url('./images/Ps.jpg');
 }
@@ -822,6 +830,18 @@ video {
 
 .bg-cover {
   background-size: cover;
+}
+
+.bg-\[length\:100\] {
+  background-size: 100;
+}
+
+.bg-\[length\:100\%_100\%\] {
+  background-size: 100% 100%;
+}
+
+.bg-\[length\:100\%100\%\] {
+  background-size: 100%100%;
 }
 
 .bg-center {
