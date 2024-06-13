@@ -9,8 +9,8 @@
 </head>
 <body>
     <!-- Navigation Bar 858 -->
-     <div class="w-100% h-12 flex justify-between">
-        <div class="p-4 flex items-center gap-5">
+     <div class="w-100% h-12 flex justify-between min-[858px]:px-14 min-[858px]:justify-start">
+        <div class="p-4 flex items-center gap-5 min-[858px]:hidden">
             <div>
                 <div class="w-6 h-[0.15rem] bg-black rounded-md mb-1"></div>
                 <div class="w-6 h-[0.15rem] bg-black rounded-md mb-1"></div>
@@ -18,17 +18,40 @@
             </div>
             <img src="images/search.png" alt="search bar" class="h-4">
         </div>
-        <a href="https://www.microsoft.com/en-in/" class="h-5"><img src="https://imgs.search.brave.com/bfgHsLj8U9GCG1qucI77E-7FRPZVXoyDkZNEA8BIhbA/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93d3cu/Y25ldC5jb20vYS9p/bWcvcmVzaXplLzhj/OWM3NWJmNmEzZTMw/MzEwYmZmMGNjNGM1/ZTViMGUxYzJlNmE1/ODIvaHViLzIwMTIv/MDgvMjMvYjAzMWEz/ZTQtZjBlNy0xMWUy/LThjN2MtZDRhZTUy/ZTYyYmNjL01pY3Jv/c29mdF9uZXdfbG9n/by5qcGc_YXV0bz13/ZWJwJndpZHRoPTEy/MDA" alt="Microsoft Logo" class="h-14" ></a>
-        <div class="p-4 flex items-center gap-5">
-            <img src="images/shopping-cart.png" alt="shopping-cart" class="h-4 ml-4">
-            <img src="images/user.png" alt="user" class="h-6 ml-4">
+        <a href="https://www.microsoft.com/en-in/" class="h-5 min-[858px]:pr-3"><img src="https://imgs.search.brave.com/bfgHsLj8U9GCG1qucI77E-7FRPZVXoyDkZNEA8BIhbA/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93d3cu/Y25ldC5jb20vYS9p/bWcvcmVzaXplLzhj/OWM3NWJmNmEzZTMw/MzEwYmZmMGNjNGM1/ZTViMGUxYzJlNmE1/ODIvaHViLzIwMTIv/MDgvMjMvYjAzMWEz/ZTQtZjBlNy0xMWUy/LThjN2MtZDRhZTUy/ZTYyYmNjL01pY3Jv/c29mdF9uZXdfbG9n/by5qcGc_YXV0bz13/ZWJwJndpZHRoPTEy/MDA" alt="Microsoft Logo" class="h-14" ></a>
+        <div class="flex items-center min-[858px]:justify-between min-[858px]:w-full">
+            <div class="border-l-2 border-black pl-6 hidden min-[858px]:block">
+                <div class="flex items-center gap-4">
+                    <img src="images/xbox.png" alt="xbox" class="h-6">
+                    <span class="text-[0.8rem] text-slate-800 hover:border-b-[3px] hover:border-black cursor-pointer">Game Pass &vee;</span>
+                    <span class="text-[0.8rem] text-slate-800 hover:border-b-[3px] hover:border-black cursor-pointer">Games &vee;</span>
+                    <span class="text-[0.8rem] text-slate-800 hover:border-b-[3px] hover:border-black cursor-pointer">Devices &vee;</span>
+                    <span class="text-[0.8rem] text-slate-800 hover:border-b-[3px] hover:border-black cursor-pointer">Play &vee;</span>
+                    <span class="text-[0.8rem] text-slate-800 hover:border-b-[3px] hover:border-black cursor-pointer">Store &vee;</span>
+                    <span class="text-[0.8rem] text-slate-800 hover:border-b-[3px] hover:border-black cursor-pointer">Community &vee;</span>
+                    <span class="text-[0.8rem] text-slate-800 hover:border-b-[3px] hover:border-black cursor-pointer">Support &vee;</span>
+                    <span class="text-[0.8rem] text-slate-800 hover:border-b-[3px] hover:border-black cursor-pointer">My Xbox &vee;</span>
+                    <span class="text-[0.8rem] text-slate-800 hover:border-b-[3px] hover:border-black cursor-pointer">More &vee;</span>
+                </div>
+            </div>
+            <div class="p-4 flex items-center gap-3"> 
+                <div class=" hidden min-[858px]:flex gap-3">
+                    <span class="text-[0.8rem] text-slate-800 hover:border-b-[3px] hover:border-black cursor-pointer">All Microsoft &vee;</span>
+                    <span class="text-[0.8rem] hover:border-b-[3px] hover:border-black cursor-pointer">Search</span>
+                    <img src="images/search.png" alt="search bar" class="h-4">
+                </div>
+                <span class="text-[0.8rem] hidden min-[858px]:inline-block  hover:border-b-[3px] hover:border-black cursor-pointer">Cart</span>
+                <img src="images/shopping-cart.png" alt="shopping-cart" class="h-4">
+                <span class="text-[0.8rem] hidden min-[858px]:inline-block  hover:border-b-[3px] hover:border-black cursor-pointer">Sign in</span>
+                <img src="images/user.png" alt="user" class="h-6 ml-4">
+            </div>
         </div>
      </div>
      <hr>
-     <!-- End -->
+    <!-- End -->
 
     <!-- xbox -->
-     <div class="h-8 flex items-center p-4">
+     <div class="h-8 flex items-center p-4 min-[858px]:hidden">
         <img src="images/xbox.png" alt="xbox" class="h-6 p-1 m-0">
      </div>
      <hr>
