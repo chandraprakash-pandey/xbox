@@ -656,12 +656,8 @@ video {
   height: 2px;
 }
 
-.h-\[38rem\] {
-  height: 38rem;
-}
-
-.h-\[40rem\] {
-  height: 40rem;
+.h-\[50rem\] {
+  height: 50rem;
 }
 
 .h-\[56rem\] {
@@ -861,6 +857,10 @@ video {
   padding-left: 1.5rem;
 }
 
+.text-left {
+  text-align: left;
+}
+
 .text-center {
   text-align: center;
 }
@@ -949,8 +949,77 @@ video {
   }
 }
 
-.hover\:border-b-\[3px\]:hover {
-  border-bottom-width: 3px;
+.anime1:hover{
+  border-bottom: 2px solid black;
+}
+
+@media (min-width:858px){
+  .contain{
+    display: grid;
+    grid-template-rows: 25rem 25rem 25rem 25rem 37.5rem 25rem 25rem 25rem 25rem 37.5rem;
+    grid-template-columns: 1fr 1fr;
+    gap: 2px;
+  }
+
+  .grid1{
+    grid-area: 1 / 1 / 3 / 2;
+  }
+
+  .grid2{
+    grid-area: 1 / 2 / 2 / 3;
+  }
+
+  .grid3{
+    grid-area: 2 / 2 / 4/ 3;
+  }
+
+  .grid4{
+    grid-area: 3 / 1 / 4 / 2;
+  }
+
+  .grid5{
+    grid-area: 4 / 1 / 5 / 2;
+  }
+
+  .grid6{
+    grid-area: 4 / 2 / 5 / 3;
+  }
+
+  .grid7{
+    grid-area: 5 / 1 / 6 / 3;
+  }
+
+  .grid8{
+    grid-area: 6 / 1 / 7 / 2;
+  }
+
+  .grid9{
+    grid-area: 6 / 2 / 7 / 3;
+  }
+
+  .grid10{
+    grid-area: 7 / 1 / 8 / 2;
+  }
+
+  .grid11{
+    grid-area: 7 / 2 / 9 / 3;
+  }
+
+  .grid12{
+    grid-area: 8 / 1 / 10 / 2;
+  }
+
+  .grid13{
+    grid-area: 9 / 2 / 10 / 3;
+  }
+
+  .grid14{
+    grid-area: 10 / 1 / 11 / 3;
+  }
+}
+
+.hover\:border-b-\[2px\]:hover {
+  border-bottom-width: 2px;
 }
 
 .hover\:border-black:hover {
@@ -989,12 +1058,28 @@ video {
     display: none;
   }
 
+  .min-\[858px\]\:h-\[25rem\] {
+    height: 25rem;
+  }
+
   .min-\[858px\]\:h-\[35rem\] {
     height: 35rem;
   }
 
+  .min-\[858px\]\:h-\[37\.5rem\] {
+    height: 37.5rem;
+  }
+
+  .min-\[858px\]\:w-2\/4 {
+    width: 50%;
+  }
+
   .min-\[858px\]\:w-\[35\%\] {
     width: 35%;
+  }
+
+  .min-\[858px\]\:w-\[70\%\] {
+    width: 70%;
   }
 
   .min-\[858px\]\:w-full {
@@ -1005,8 +1090,24 @@ video {
     flex-direction: row;
   }
 
+  .min-\[858px\]\:flex-row-reverse {
+    flex-direction: row-reverse;
+  }
+
+  .min-\[858px\]\:flex-col {
+    flex-direction: column;
+  }
+
+  .min-\[858px\]\:items-center {
+    align-items: center;
+  }
+
   .min-\[858px\]\:justify-start {
     justify-content: flex-start;
+  }
+
+  .min-\[858px\]\:justify-center {
+    justify-content: center;
   }
 
   .min-\[858px\]\:justify-between {
