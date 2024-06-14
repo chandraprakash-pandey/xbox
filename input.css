@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.anime_d{
+    width: 0px;
+    transition: 0.5s;
+    background-color: #107c10;
+}
+
+.anime:hover{
+    .anime_d{
+        width: 100%;
+        /* transition: 0.5s; */
+    }
+}
