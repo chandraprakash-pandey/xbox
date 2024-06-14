@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+
+/* body{
+    overflow: hidden;
+} */
+
 .anime_d{
     width: 0px;
     transition: 0.5s;
@@ -67,5 +72,21 @@
     }
     .grid14{
         grid-area: 10 / 1 / 11 / 3;
+    }
+}
+
+.img{
+    transition: 0.2s;
+    overflow: hidden;
+}
+
+.img:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+@media (max-width:1376px) and (min-width:858px){
+    .hoi{
+        display: none;
     }
 }
